@@ -1,0 +1,14 @@
+.connection-status {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+/* En pantallas medianas y grandes, mover a la derecha */
+@media (min-width: 768px) {
+  .connection-status {
+    left: auto;
+    right: 10px;
+  }
+} 
