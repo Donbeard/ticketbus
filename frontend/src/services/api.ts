@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Producto, Venta, ProductoCreate, ProductoUpdate, VentaCreate, Stats } from '../types';
 import { offlineStorage } from './offlineStorage';
 
-const API_BASE_URL = 'http://192.168.20.92:8000/';
+const API_BASE_URL = 'http://192.168.20.92:8001/';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
